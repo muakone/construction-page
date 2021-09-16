@@ -423,10 +423,12 @@ footer {
     }
     header {
         width: 100%;
+        justify-content: space-evenly;
+        padding: 1em 0;
     }
     .first-section {
         width: 100%;
-        background-position: 81%;
+        background-position: 80% 100%;
     }
     .repair-service {
         width: 100%;
