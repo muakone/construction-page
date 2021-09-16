@@ -342,7 +342,7 @@ footer {
         padding: 3em 5em;
     }
     .images3 > img {
-        width: 35em;
+        width: 105%;
         height: 19em;
     }
     .inner-p-s3 > p {
@@ -426,6 +426,7 @@ footer {
     }
     .first-section {
         width: 100%;
+        background-position: 81%;
     }
     .repair-service {
         width: 100%;
