@@ -1,0 +1,436 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+.d-flex {
+    display: flex;
+}
+.j-content {
+    justify-content: center;
+}
+.a-content {
+    align-items: center;
+}
+header {
+    padding: 1em 7em;
+    justify-content: space-between;
+}
+.first-section {
+    height: 100vh;
+    background-image: url(../image/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.repair-service {
+    margin-bottom: 6em;
+    padding-left: 7%;
+    line-height: 2em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.big-text {
+    font-size: 100px;
+    font-weight: 800;
+    margin-top: .6em;
+}
+.repair-service > h2 {
+    font-size: 50px;
+    font-weight: 400;
+}
+.first-line {
+    margin-top: 3em;
+    width: 53%;
+    height: 10px;
+    background-color: white;
+    border: none;
+}
+.repair-icons {
+    margin-top: 1.7em;
+    margin-left: -2em;
+    width: 30em;
+    justify-content: space-around;
+}
+.filter {
+    filter: invert(400%) sepia(120%) saturate(100%) hue-rotate(97deg) brightness(990%) contrast(100%);
+}
+.second-section {
+    background-color: ghostwhite;
+
+}
+.help {
+    max-width: 40em;
+    flex-direction: column;
+    padding: 10em 0  5em 0;
+    font-family: 'Montserrat', sans-serif;
+    gap: 2rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.help > h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: gray;
+}
+.help > h1 {
+    font-size: 50px;
+}
+.help > p {
+    line-height: 1.8rem;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+}
+.btn-red {
+    width: 11em;
+    padding: 1.1rem;
+    background-color: rgba(233, 30, 30, 0.918);
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+}
+.third-section {
+    font-family: 'Montserrat', sans-serif;
+    column-gap: 2%;
+    padding-bottom: 3em;
+}
+.l-third-section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.r-third-section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+}
+.images3 > img {
+    width: 90%;
+}
+.inner-p-s3 > p {
+    max-width: 23em;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: rgb(9, 9, 36);
+    margin-top: 2em;
+}
+.r-f-text {
+    line-height: 3.5rem;
+}
+.f1-text {
+    font-size: 40px;
+    font-weight: 600;
+}
+.red {
+    font-size: 35px;
+    font-weight: 600;
+    color: rgba(233, 30, 30, 0.918);
+}
+.third-image1 > img {
+    margin-top: 4em;
+}
+.fourth-section {
+    height: 105vh;
+    background-image: url(../image/g.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.f-image {
+    width: 30em;
+    background-image: url(../image/billionphotos1079319min.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+.f-l-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 35em;
+    gap: 2rem;
+    align-items: flex-start;
+}
+.blue {
+    font-size: 70px;
+    color: rgba(27, 27, 228, 0.904);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.line-red {
+    width: 12em;
+    width: 100%;
+    height: 10px;
+    border: none;
+    background-color: rgba(233, 30, 30, 0.918);
+}
+.f-l-text p {
+    width: 25em;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.842);
+    line-height: 2rem;
+}
+.fifth-section {
+    padding: 2em 4em;
+    font-family: 'Montserrat', sans-serif;
+}
+.fifth-section > h1 {
+    font-size: 47px;
+    font-weight: 700;
+    padding-bottom: 3rem;
+    padding-left: 1.5em;
+    padding-top: .8em;
+}
+.our-service {
+    justify-content: space-evenly;
+    padding-top: 1em;
+}
+.services {
+    max-width: 23em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4em;
+    margin-left: 4em;
+    padding-bottom: 4em;
+}
+.service-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgba(233, 30, 30, 0.918);
+    box-sizing: border-box;
+    padding: 1.2rem;
+}
+.service-images {
+    width: 50px;
+}
+.services h3 {
+    font-size: 24px;
+}
+.services p {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.8rem;
+}
+.sixth-section {
+    background-color: rgb(11, 68, 133);
+    padding: 5em;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.row img {
+    width: 42%;
+    height: 12em;
+}
+.r-sixth-section {
+    max-width: 30em;
+    line-height: 5em;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-left: 8%;
+}
+.r-sixth-section h4 {
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: -2em;
+}
+.r-sixth-section h2 {
+    font-size: 100px;
+    font-weight: 500;
+}
+.r-sixth-section b {
+    font-size: 120px;
+}
+.sixth-img-width {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.row {
+    gap: 8%;
+}
+.last-section {
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    padding: 6em 0;
+}
+.todo-section {
+    flex-direction: column;
+    max-width: 39em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.todo-section h2 {
+    font-size: 35px;
+    line-height: 2.5rem;
+}
+.l-para-sect {
+    margin-top: 4rem;
+    word-spacing: 3px;
+    font-size: 30px;
+    line-height: 2.5rem;
+    font-weight: 300;
+}
+.l-btn {
+    margin-top: 2rem;
+    justify-content: center;
+    gap: 4%;
+}
+.call {
+    width: 12em;
+    padding: 1.1rem;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    border: thin 1px black;
+    border-radius: 3px;
+}
+footer {
+    height: 5em;
+    background-color: gray;
+    padding: 3em 0;
+}
+.footer-text {
+    max-width: 26em;
+    text-align: center;
+    margin: 0 auto;
+}
+/* Responsive part */
+@media(max-width: 768px) {
+    body {
+        width: 100%;
+    }
+    .big-text {
+        font-size: 70px;
+    }
+    .repair-service > h2 {
+        font-size: 37px;
+    }
+    .first-line {
+        width: 60%;
+    }
+    .repair-icons {
+        width: 25em;
+    }
+    .help {
+        max-width: 38em;
+    }
+    .third-section {
+        flex-direction: column;
+        padding: 3em 5em;
+    }
+    .images3 > img {
+        width: 35em;
+        height: 19em;
+    }
+    .inner-p-s3 > p {
+        max-width: 100%;
+    }
+    .l-third-section {
+        width: 100%;
+    }
+    .r-third-section {
+        width: 100%;
+    }
+    .fourth-section {
+        gap: 3em;
+        box-sizing: border-box;
+    }
+    .f-l-text {
+        max-width: 20em;
+        margin-right: -5em;
+    }
+    .blue {
+        line-height: 1em;
+        font-size: 50px;
+    }
+    .line-red {
+        width: 70%;
+    }
+    .f-l-text p {
+        max-width: 90%;
+    }
+    .f-image {
+        width: 50%;
+        margin-left: -5rem;
+        margin-right: -2rem;
+    }
+    .line-red {
+        width: 85%;
+    }
+    .our-service {
+        padding: .5em;
+        justify-content: space-between;
+    }
+    .services {
+        margin-left: 1em;
+    }
+    .sixth-section {
+        width: 100%;
+        flex-direction: column;
+        padding: 3em 1.5em;
+        box-sizing: border-box;
+        row-gap: 1.5em;
+    }
+    .r-sixth-section {
+        white-space: nowrap;
+        padding-left: 2%;
+    }
+    .r-sixth-section h2, .r-sixth-section b {
+        font-size: 70px;
+    }
+    .sixth-img-width {
+        width: 100%;
+        gap: 1.5em;
+    }
+    .row {
+        width: 100%;
+        gap: 4%;
+    }
+    .row img {
+        width: 48%;
+        height: 17em;
+    }
+    .r-sixth-section > h4 {
+        margin-bottom: -3em;
+    }
+}
+@media(max-width:320px) {
+    body {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+    }
+    .first-section {
+        width: 200%;
+    }
+    .repair-service {
+        width: 100%;
+    }
+    .second-section {
+        width: 100%;
+    }
+}
