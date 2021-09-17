@@ -361,7 +361,7 @@ footer {
     }
     .f-l-text {
         max-width: 20em;
-        margin-right: -2.5em;
+        margin-left: 2em;
     }
     .blue {
         line-height: 1em;
@@ -444,6 +444,7 @@ footer {
     }
     .repair-icons {
         visibility: hidden;
+        max-width: 0;
     }
     .fifth-section {
         padding: 2em 1em 2em .7em;
