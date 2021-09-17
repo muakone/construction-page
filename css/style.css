@@ -174,7 +174,6 @@ header {
     font-weight: 700;
 }
 .line-red {
-    width: 12em;
     width: 100%;
     height: 10px;
     border: none;
@@ -252,7 +251,6 @@ header {
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-weight: 500;
     margin-bottom: -2em;
 }
 .r-sixth-section h2 {
@@ -322,6 +320,9 @@ footer {
     body {
         width: 100%;
     }
+    .first-section {
+        background-position: 70% 100%;
+    }
     .big-text {
         font-size: 70px;
     }
@@ -360,7 +361,7 @@ footer {
     }
     .f-l-text {
         max-width: 20em;
-        margin-right: -5em;
+        margin-right: -2.5em;
     }
     .blue {
         line-height: 1em;
@@ -373,7 +374,7 @@ footer {
         max-width: 90%;
     }
     .f-image {
-        width: 50%;
+        width: 40%;
         margin-left: -5rem;
         margin-right: -2rem;
     }
