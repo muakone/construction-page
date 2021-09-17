@@ -318,7 +318,7 @@ footer {
     margin: 0 auto;
 }
 /* Responsive part */
-@media(max-width: 768px) {
+@media(max-width: 992px) {
     body {
         width: 100%;
     }
@@ -417,7 +417,7 @@ footer {
         margin-bottom: -3em;
     }
 }
-@media(max-width:360px) {
+@media(max-width:600px) {
     body {
         width: 100%;
     }
@@ -460,7 +460,7 @@ footer {
         width: 100%;
     }
     .f1-text {
-        font-size: 29px;
+        font-size: 27px;
         white-space: nowrap;
     }
     .red {
@@ -523,6 +523,7 @@ footer {
         height: 15em;
     }
     .todo-section {
+        max-width: 98%;
         align-items: center;
     }
     .l-para-sect {
