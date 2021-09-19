@@ -541,3 +541,21 @@ footer {
         height: 4em;
     }
 }
+@media (max-width:320px) {
+    .big-text {
+        font-size: 39px;
+    }
+    .f1-text {
+        white-space: pre-wrap;
+    }
+    .r-f-text {
+        line-height: 2rem;
+    }
+    .f-l-text p {
+        max-width: 14em;
+    }
+    .sixth-section {
+        padding: 0;
+        padding-bottom: 1em;
+    }
+}
